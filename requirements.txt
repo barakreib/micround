@@ -1,0 +1,15 @@
+# Micround v2 — Dependencies
+# Install with:  pip install -r requirements.txt
+
+# ── Server ────────────────────────────────────────────────────────────────────
+opencv-python-headless     # Camera capture & JPEG encoding
+rumps                      # macOS menu bar app framework
+pyngrok                    # Ngrok tunnel for cross-network access
+
+# ── Client ────────────────────────────────────────────────────────────────────
+pyobjc-framework-Cocoa     # macOS window, menu bar, image management
+pyobjc-framework-Quartz    # Additional macOS graphics support
+
+# ── Shared ────────────────────────────────────────────────────────────────────
+websockets                 # WebSocket server (server) and client (client)
+zeroconf                   # Bonjour/mDNS service registration & discovery
