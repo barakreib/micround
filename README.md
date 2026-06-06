@@ -45,14 +45,13 @@ cd ~/codingprojects/micround
 If you don't have the code yet, clone it:
 ```bash
 cd ~/codingprojects
-git clone https://github.com/yourusername/micround.git
+git clone https://github.com/barakreib/micround.git
 cd micround
 ```
 
 ### 2. Run the setup script
 
 ```bash
-cd "version 2"
 bash setup.sh
 ```
 
@@ -79,7 +78,7 @@ ngrok config add-authtoken YOUR_AUTHTOKEN_HERE
 ### Server (Mac with the microscope)
 
 ```bash
-cd ~/codingprojects/micround/"version 2"
+cd ~/codingprojects/micround
 source venv/bin/activate
 python3 server.py
 ```
@@ -94,7 +93,7 @@ The server will:
 ### Client (Mac for the wallpaper)
 
 ```bash
-cd ~/codingprojects/micround/"version 2"
+cd ~/codingprojects/micround
 source venv/bin/activate
 python3 client.py
 ```
@@ -173,7 +172,7 @@ Once setup is done, all you need each time:
 
 **Server:**
 ```bash
-cd ~/codingprojects/micround/"version 2"
+cd ~/codingprojects/micround
 source venv/bin/activate
 python3 server.py
 # Click 🔬 → Start Streaming
@@ -181,7 +180,7 @@ python3 server.py
 
 **Client:**
 ```bash
-cd ~/codingprojects/micround/"version 2"
+cd ~/codingprojects/micround
 source venv/bin/activate
 python3 client.py
 # Auto-connects on the same Wi-Fi!

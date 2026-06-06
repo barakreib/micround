@@ -7,7 +7,7 @@
 # and installs all Python dependencies.
 #
 # Usage:
-#   cd "version 2"
+#   cd ~/codingprojects/micround
 #   bash setup.sh
 # ──────────────────────────────────────────────────────────────────────────────
 
